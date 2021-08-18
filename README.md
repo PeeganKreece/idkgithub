@@ -57,4 +57,9 @@ everything should work then feel free to contact Keegan#8025 for any questions t
 
 # More advanced tutorial will be posted soon this is a complete newbie one
 
+# Where do I place the Client Event?!?!?!
+If it is a client event then anywhere in a client side of a script that is lua, the opposite goes for server it goes in the server side of a script that is lua
+
+Now sometimes a event you have might have a config or data that is needing to be grabbed in a script, what I do is I put the event in that script instead and it should work.
+
 
