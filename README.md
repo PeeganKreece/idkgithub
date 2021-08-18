@@ -53,7 +53,7 @@ http://ronsoros.github.io/?73825d2b4169d01e304ed8189ca5913335b543e7
 
 # Final Steps
 You should set the coords field on your poly to where you want to interact with it, then you want to set the RegisterNetEvent('name') name to the event = field in your polyzone aswell
-everything should work then feel free to contact Keegan#8025 for any questions that arent too farfetched
+everything should work then feel free to contact Keegan#8025 for any questions that arent too farfetched. the best place to honestly get support is the qb-target channel in qbcore framework discord its very helpful
 
 # More advanced tutorial will be posted soon this is a complete newbie one
 
