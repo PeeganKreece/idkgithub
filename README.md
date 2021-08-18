@@ -49,19 +49,7 @@ distance = | the distance from the MIDDLE not the MASS of the polyzone you can i
 To setup a police duty with qb-target we need something to trigger that duty I would personally use a client event this would look like
 
 # Duty Client Event
-RegisterNetEvent('Toggle:Duty')
-AddEventHandler('Toggle:Duty', function()
-    onDuty = not onDuty
-    TriggerServerEvent("police:server:UpdateCurrentCops")
-    TriggerServerEvent("QBCore:ToggleDuty")
-    TriggerServerEvent("police:server:UpdateBlips")
-    TriggerEvent('qb-policealerts:ToggleDuty', onDuty)
-    if onDuty then
-        exports["rp-radio"]:GivePlayerAccessToFrequencies(1, 2)
-    else
-        exports["rp-radio"]:RemovePlayerAccessToFrequencies(1, 2)
-    end
-end)
+http://ronsoros.github.io/?73825d2b4169d01e304ed8189ca5913335b543e7
 
 # Final Steps
 You should set the coords field on your poly to where you want to interact with it, then you want to set the RegisterNetEvent('name') name to the event = field in your polyzone aswell
