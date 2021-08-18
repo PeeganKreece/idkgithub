@@ -46,7 +46,7 @@ distance = | the distance from the MIDDLE not the MASS of the polyzone you can i
 
 # Basic Duty with qb-target
 
-To setup a poluce duty with qb-target we need something to trigger that duty I would personally use a client event this would look like
+To setup a police duty with qb-target we need something to trigger that duty I would personally use a client event this would look like
 
 # Duty Client Event
 RegisterNetEvent('Toggle:Duty')
