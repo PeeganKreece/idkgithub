@@ -4,7 +4,7 @@ You will need these resources for this tutorial:
 qb-target: https://github.com/berkiebb/qb-target
 PolyZone: https://github.com/mkafrin/PolyZone
 # Basic
-Make sure you have the resources started/ensured in your cfg for your server
+Make sure you have the resources started/ensured in your cfg for your serve
 
 # How to Edit/Add things to Use/Look at
 To start off with adding a new target we will need to figure out what type of target we want to use for the tutorial we will go with a box polyzone
